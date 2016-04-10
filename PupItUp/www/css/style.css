@@ -25,3 +25,9 @@ ion-content {
   background-size: cover;
   margin:0;
 }
+
+.has-header2 {
+  background-image: url("../img/smiledog2.jpg");
+  background-position: center top;
+  background-size: cover;
+}
