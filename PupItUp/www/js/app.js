@@ -55,6 +55,21 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         templateUrl: 'templates/Dog6.html',
         controller: 'Dog6Ctrl'
       })
+      .state('Dog7',{
+        url: '/Dog7',
+        templateUrl: 'templates/Dog7.html',
+        controller: 'Dog7Ctrl'
+      })
+      .state('Dog8',{
+        url: '/Dog8',
+        templateUrl: 'templates/Dog8.html',
+        controller: 'Dog8Ctrl'
+      })
+      .state('Dog9',{
+        url: '/Dog9',
+        templateUrl: 'templates/Dog9.html',
+        controller: 'Dog9Ctrl'
+      })
       .state('Dog2',{
         url: '/Dog2',
         templateUrl: 'templates/Dog2.html',
