@@ -30,10 +30,20 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         templateUrl: 'templates/main.html',
         controller: 'MainCtrl'
       })
-      .state('SmilePic',{
-        url: '/SmilePic',
-        templateUrl: 'templates/SmilePic.html',
-        controller: 'SmilePicCtrl'
+      .state('Dog1',{
+        url: '/Dog1',
+        templateUrl: 'templates/Dog1.html',
+        controller: 'Dog1Ctrl'
+      })
+      .state('Dog3',{
+        url: '/Dog3',
+        templateUrl: 'templates/Dog3.html',
+        controller: 'Dog3Ctrl'
+      })
+      .state('Dog2',{
+        url: '/Dog2',
+        templateUrl: 'templates/Dog2.html',
+        controller: 'Dog2Ctrl'
       });
     $urlRouterProvider.otherwise('/main');
   });

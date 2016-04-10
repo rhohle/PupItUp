@@ -4,30 +4,44 @@ ion-view, body {
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
+  font-family: "Abadi MT Condensed Extra Bold";
 }
+
 .h1 {
-  font-family: "Avenir Next";
-  font-size: large;
+  font-family: "Abadi MT Condensed Extra Bold";
 }
 
 .h2 {
-  font-family: "Avenir Next";
+  font-family: "Abadi MT Condensed Extra Bold";
 }
 
 .h3 {
-  font-family: "Avenir Next";
+  font-family: "Abadi MT Condensed Extra Bold";
 }
 
 ion-content {
-  font-family: 'Lato', sans-serif;
+  font-family: "Abadi MT Condensed Light";
   background: url("../img/shutterstock_153305798.jpg");
   background-position: center top;
   background-size: cover;
   margin:0;
 }
+.button button-outline button-light {
+  font-family: "Abadi MT Condensed Light";
+}
 
-.has-header2 {
-  background-image: url("../img/smiledog2.jpg");
-  background-position: center top;
-  background-size: cover;
+/*.has-header2 {*/
+  /*background-image: url("../img/Dog1.jpg");*/
+  /*background-size: contain;*/
+  /*background-position: ;*/
+/*}*/
+
+.item-image{
+  position: relative;
+  width: 100%;
+
+}
+.item-imageh {
+  position: relative;
+  width: 80%;
 }
