@@ -5,7 +5,7 @@
 angular.module('starter.controllers', [])
 
   .controller('MainCtrl', function($scope, $state) {
-    numbs = [1,2,3,4,5,6,7,8,9,10,11];
+    numbs = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
     $scope.switchPage = function(){
       var rand = numbs[Math.floor(Math.random()*numbs.length)];
       if (rand === 1){
@@ -38,8 +38,35 @@ angular.module('starter.controllers', [])
       else if (rand === 10){
           document.location.href= "#/Dog10";
       }
+      else if (rand === 11){
+        document.location.href= "#/Dog11";
+      }
+      else if (rand === 12){
+        document.location.href= "#/Dog12";
+      }
+      else if (rand === 13){
+        document.location.href= "#/Dog13";
+      }
+      else if (rand === 14){
+        document.location.href= "#/Dog14";
+      }
+      else if (rand === 15){
+        document.location.href= "#/Dog15";
+      }
+      else if (rand === 16){
+        document.location.href= "#/Dog16";
+      }
+      else if (rand === 17){
+        document.location.href= "#/Dog17";
+      }
+      else if (rand === 18){
+        document.location.href= "#/Dog18";
+      }
+      else if (rand === 19){
+        document.location.href= "#/Dog19";
+      }
       else{
-        document.location.href ="#/Dog11";
+        document.location.href ="#/Dog20";
       }
     }
   })
@@ -75,5 +102,32 @@ angular.module('starter.controllers', [])
 
 })
 .controller('Dog11Ctrl', function($scope){
+
+})
+.controller('Dog12Ctrl', function($scope){
+  
+})
+.controller('Dog13Ctrl', function($scope){
+  
+})
+.controller('Dog14Ctrl', function($scope){
+  
+})
+.controller('Dog15Ctrl', function($scope){
+  
+})
+.controller('Dog16Ctrl', function($scope){
+  
+})
+.controller('Dog17Ctrl', function($scope){
+  
+})
+.controller('Dog18Ctrl', function($scope){
+  
+})
+.controller('Dog19Ctrl', function($scope){
+  
+})
+.controller('Dog20Ctrl', function($scope){
 
   });

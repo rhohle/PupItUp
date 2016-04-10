@@ -80,6 +80,51 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         templateUrl: 'templates/Dog11.html',
         controller: 'Dog11Ctrl'
       })
+      .state('Dog12',{
+        url: '/Dog12',
+        templateUrl: 'templates/Dog12.html',
+        controller: 'Dog12Ctrl'
+      })
+      .state('Dog13',{
+        url: '/Dog13',
+        templateUrl: 'templates/Dog13.html',
+        controller: 'Dog13Ctrl'
+      })
+      .state('Dog14',{
+        url: '/Dog14',
+        templateUrl: 'templates/Dog14.html',
+        controller: 'Dog14Ctrl'
+      })
+      .state('Dog15',{
+        url: '/Dog15',
+        templateUrl: 'templates/Dog15.html',
+        controller: 'Dog15Ctrl'
+      })
+      .state('Dog16',{
+        url: '/Dog16',
+        templateUrl: 'templates/Dog16.html',
+        controller: 'Dog16Ctrl'
+      })
+      .state('Dog17',{
+        url: '/Dog17',
+        templateUrl: 'templates/Dog17.html',
+        controller: 'Dog17Ctrl'
+      })
+      .state('Dog18',{
+        url: '/Dog18',
+        templateUrl: 'templates/Dog18.html',
+        controller: 'Dog18Ctrl'
+      })
+      .state('Dog19',{
+        url: '/Dog19',
+        templateUrl: 'templates/Dog19.html',
+        controller: 'Dog19Ctrl'
+      })
+      .state('Dog20',{
+        url: '/Dog20',
+        templateUrl: 'templates/Dog20.html',
+        controller: 'Dog20Ctrl'
+      })
       .state('Dog2',{
         url: '/Dog2',
         templateUrl: 'templates/Dog2.html',
