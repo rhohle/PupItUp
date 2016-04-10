@@ -73,7 +73,7 @@ angular.module('starter.controllers', [])
 })
 .controller('Dog10Ctrl', function($scope){
 
-}) 
+})
 .controller('Dog11Ctrl', function($scope){
 
   });
