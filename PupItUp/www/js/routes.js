@@ -7,8 +7,8 @@ angular.module('app.routes', [])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-    
-  
+
+
 
       .state('tabsController.welcomeToPupItUp', {
     url: '/page2',
@@ -49,16 +49,6 @@ angular.module('app.routes', [])
   .state('tabsController.cheerUp', {
     url: '/page5',
     views: {
-      'tab3': {
-        templateUrl: 'templates/cheerUp.html',
-        controller: 'cheerUpCtrl'
-      }
-    }
-  })
-
-  .state('tabsController.cheerUpWithAKitten', {
-    url: '/page6',
-    views: {
       'tab2': {
         templateUrl: 'templates/cheerUpWithAKitten.html',
         controller: 'cheerUpWithAKittenCtrl'
@@ -66,8 +56,18 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.cheerUpWithAKitten', {
+    url: '/page6',
+    views: {
+      'tab3': {
+        templateUrl: 'templates/cheerUp.html',
+        controller: 'cheerUpCtrl'
+      }
+    }
+  })
+
 $urlRouterProvider.otherwise('/page1/page2')
 
-  
+
 
 });
