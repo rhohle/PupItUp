@@ -5,7 +5,7 @@
 angular.module('starter.controllers', [])
 
   .controller('MainCtrl', function($scope, $state) {
-    numbs = [1,2,3,4,5,6,7,8,9];
+    numbs = [1,2,3,4,5,6,7,8,9,10,11];
     $scope.switchPage = function(){
       var rand = numbs[Math.floor(Math.random()*numbs.length)];
       if (rand === 1){
@@ -32,8 +32,14 @@ angular.module('starter.controllers', [])
       else if (rand === 8){
         document.location.href= "#/Dog8";
       }
+      else if (rand === 9) {
+        document.location.href = "#/Dog9";
+      }
+      else if (rand === 10){
+          document.location.href= "#/Dog10";
+      }
       else{
-        document.location.href ="#/Dog9";
+        document.location.href ="#/Dog11";
       }
     }
   })
@@ -63,5 +69,11 @@ angular.module('starter.controllers', [])
 
 })
 .controller('Dog9Ctrl', function($scope){
+
+})
+.controller('Dog10Ctrl', function($scope){
+
+}) 
+.controller('Dog11Ctrl', function($scope){
 
   });
